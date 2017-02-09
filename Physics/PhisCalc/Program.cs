@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication3
+namespace PhisCalc
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace WindowsFormsApplication3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new View.FirstForm());
+            Application.Run(new View.MainForm());
         }
     }
 }
